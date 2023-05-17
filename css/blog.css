@@ -1,0 +1,45 @@
+.blog-btn{
+    background-color: red;
+}
+.blog-btn .gb-link{
+    color: white;
+}
+
+
+.transfer-blogs{
+    padding-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.transfer{
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    background-color: #f8f5f4;
+}
+.player-image{
+    width: 100%;
+    height: 175px;
+}
+.transfer-details{
+    padding: 20px;
+}
+.transfer-button{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 16px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+.transfer-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+.transfer-info{
+    font-size: 16px;
+    line-height: 26px;
+}

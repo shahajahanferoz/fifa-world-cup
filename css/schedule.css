@@ -1,0 +1,33 @@
+.schedule-btn{
+    background-color: red;
+}
+.schedule-btn .gb-link{
+    color: white;
+}
+
+
+.matches-schedule{
+    padding-left: 24px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.match-schedule{
+        border: 1px solid #e8e8e8;
+        border-radius: 10px;
+        background-color: #f8f5f4;
+        padding: 30px 52px;
+        text-align: center;
+}
+
+.country-flags{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+.match-title{
+    font-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
