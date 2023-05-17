@@ -46,7 +46,7 @@
 
 /* Media Queria */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 481px){
     .transfer-blogs{
         padding-left: 0px;
         display: grid;
@@ -63,5 +63,11 @@
         color: white;
         border-style: none;
         margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .transfer-blogs{
+        grid-template-columns: 1fr;
     }
 }
