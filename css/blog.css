@@ -43,3 +43,25 @@
     font-size: 16px;
     line-height: 26px;
 }
+
+/* Media Queria */
+
+@media only screen and (max-width: 1024px) {
+    .transfer-blogs{
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+    }
+    .view-all-btn{
+        display: block;
+        width: 150px;
+        padding: 13px 25px;
+        font-size: 20px;
+        border-radius: 5px;
+        background-color: rgb(172, 68, 27);
+        color: white;
+        border-style: none;
+        margin: 5%;
+    }
+}

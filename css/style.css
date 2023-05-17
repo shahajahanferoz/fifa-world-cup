@@ -23,7 +23,7 @@ main{
     color: rgb(245, 241, 241);
     border-radius: 25px;
     display: flex;
-    padding-left: 105px;
+    padding-left: 7%;
 }
 .cover-page-info{
     width: 40%;
@@ -52,6 +52,7 @@ main{
     color: white;
     border-style: none;
     transition: background-color 3s;
+    margin-bottom: 61px;
 }
 .watch-more-btn:hover{
     background-color: rgb(153, 194, 6);
@@ -78,13 +79,17 @@ main{
     background-color: aliceblue;
     margin: 15px 30px;
     border-style: none;
+    text-align: center;
+    width: 70%;
 }
 
 .gb-link{
     text-decoration: none;
     color: black;
 }
-
+.view-all-btn{
+    display: none;
+}
 /* footer  */
 .last-section{
     background-color: #161616;
@@ -123,4 +128,58 @@ ul {
     margin: 0px 30px;
   }
 
-  
+  /* Media Queries */
+
+  @media only screen and (max-width: 1024px) {
+    .cover-page-info h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .cover-page-info p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .cover-page-img{
+        padding-left: 70px;
+        width: 95%;
+        height: 94%;
+        margin-top: 35px;
+    }
+    .middle-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-board{
+        background-color: rgb(240, 244, 247);
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    .general-btn{
+        padding: 17px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        border-radius: 10px;
+        background-color: aliceblue;
+        margin: 0 0 ;
+        border: 1px solid rgb(235, 229, 229);
+    }
+    .second-button{
+        margin: 0 3%;
+    }
+    .transfer:nth-child(n + 7) {
+        display: none;
+      }
+  }
+
+  @media only screen and (max-width: 480px) {
+    body {
+      background-color: rgb(43, 211, 9);
+    }
+  }
